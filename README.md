@@ -66,3 +66,5 @@ priority: 0.7
 Dejian Xu
 [G+](https://plus.google.com/116305544434538996428?rel=author)
 
+with just a bit modified by me using [diogomonica](https://github.com/diogomonica) unmerged [solution](https://github.com/xudejian/ruhoh-sitemap/pull/1).
+
