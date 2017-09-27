@@ -19,7 +19,7 @@ class Ruhoh
           }
         end
 
-        FileUtils.cd(@ruhoh.paths.compiled) {
+        FileUtils.cd(@ruhoh.config["compiled_path"]) {
           sitemap_file_name = @config['file_name'] || "sitemap.xml"
           File.open(sitemap_file_name, 'w'){ |p| p.puts sitemap.to_xml }
 
