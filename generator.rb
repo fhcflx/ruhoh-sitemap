@@ -30,7 +30,7 @@ class Ruhoh
       protected
 
       def add_to_sitemap(xml, collection)
-        production_url = @ruhoh.config['production_url']
+        production_url = @ruhoh.config['sitemap_url']
         update_page_sitemap collection
 
         collection.all.each do |page|
